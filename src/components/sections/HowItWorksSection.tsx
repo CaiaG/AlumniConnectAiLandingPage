@@ -4,21 +4,21 @@ import { ArrowRight } from "lucide-react";
 const steps = [
   {
     number: "01",
-    title: "Install ChromeGlow",
-    description: "Add the extension to Chrome with just one click. No signup or complicated configuration required.",
-    image: "browser-extension"
+    title: "Install AlumniConnectAI",
+    description: "Add the extension to Chrome in seconds. No sign-up or complex setup needed.",
+    image: "extension"
   },
   {
     number: "02",
-    title: "Customize Your Settings",
-    description: "Select your preferred features, themes, and configurations to personalize your experience.",
-    image: "settings"
+    title: "Navigate & Scrape",
+    description: "Head to the alumni directory and click 'Start Scraping'—let the tool gather all alumni info for you.",
+    image: "scrape"
   },
   {
     number: "03",
-    title: "Enjoy Enhanced Browsing",
-    description: "Immediately benefit from all the powerful features and optimizations automatically.",
-    image: "enjoy"
+    title: "Personalize & Send",
+    description: "Customize email templates and send bulk, trackable emails directly from your browser.",
+    image: "send"
   }
 ];
 
@@ -27,12 +27,12 @@ const HowItWorksSection = () => {
     <section id="how-it-works" className="py-20 bg-white">
       <div className="section-container">
         <div className="text-center mb-16">
-          <p className="subtle-heading mb-4">SIMPLE SETUP</p>
+          <p className="subtle-heading mb-4">HOW IT WORKS</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Get Started In Seconds
+            Connect With Alumni in 3 Steps
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            ChromeGlow is designed to be intuitive and easy to use. Follow these simple steps to transform your browsing experience.
+            AlumniConnectAI simplifies outreach: install, scrape, and connect with just a few clicks.
           </p>
         </div>
         
@@ -44,7 +44,7 @@ const HowItWorksSection = () => {
             {steps.map((step, index) => (
               <div key={index} className="relative">
                 <div className="chrome-card p-6 h-full">
-                  <div className="inline-block rounded-full bg-chrome-blue/10 text-chrome-blue font-bold px-3 py-1 mb-4">
+                  <div className="inline-block rounded-full bg-blue-500/10 text-blue-500 font-bold px-3 py-1 mb-4">
                     {step.number}
                   </div>
                   <h3 className="text-xl font-semibold mb-3">{step.title}</h3>
@@ -52,13 +52,13 @@ const HowItWorksSection = () => {
                   
                   {index < steps.length - 1 && (
                     <div className="hidden md:block absolute top-24 right-0 transform translate-x-1/2 bg-white rounded-full p-2 z-10">
-                      <ArrowRight className="w-5 h-5 text-chrome-blue" />
+                      <ArrowRight className="w-5 h-5 text-blue-500" />
                     </div>
                   )}
                 </div>
                 
-                <div className="mt-6 bg-chrome-gray rounded-lg p-4 h-40 flex items-center justify-center shadow-sm">
-                  <div className="bg-chrome-gradient w-16 h-16 rounded-full flex items-center justify-center opacity-80">
+                <div className="mt-6 bg-gray-100 rounded-lg p-4 h-40 flex items-center justify-center shadow-sm">
+                  <div className="bg-gradient-to-br from-blue-500 to-green-400 w-16 h-16 rounded-full flex items-center justify-center opacity-80">
                     <span className="text-white font-bold">{step.image}</span>
                   </div>
                 </div>

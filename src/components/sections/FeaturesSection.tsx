@@ -1,5 +1,5 @@
 
-import { CheckCircle, Zap, Shield, LineChart, RefreshCw, Palette } from "lucide-react";
+import { CheckCircle, Zap, Mail, Users, History, FileText } from "lucide-react";
 
 const FeatureCard = ({ 
   title, 
@@ -24,34 +24,34 @@ const FeatureCard = ({
 const FeaturesSection = () => {
   const features = [
     {
-      title: "Enhanced Productivity",
-      description: "Smart tools that streamline your workflow and help you accomplish more in less time.",
-      icon: Zap
+      title: "Automated Alumni Data Scraping",
+      description: "Collect comprehensive alumni information from directories without manual copy-pasting.",
+      icon: Users
     },
     {
-      title: "Advanced Security",
-      description: "Built-in protection against malicious sites and trackers to keep your browsing secure.",
-      icon: Shield
+      title: "Personalized Email Templates",
+      description: "Generate and edit dynamic email templates for each outreach campaign.",
+      icon: FileText
     },
     {
-      title: "Performance Insights",
-      description: "Monitor and optimize your browser's performance with detailed analytics.",
-      icon: LineChart
+      title: "Bulk Email Sending",
+      description: "Easily send custom emails to multiple alumni in one go.",
+      icon: Mail
     },
     {
-      title: "Auto-Refresh",
-      description: "Set pages to refresh automatically at custom intervals to keep content updated.",
-      icon: RefreshCw
+      title: "Email Tracking & History",
+      description: "Monitor email opens, replies, and keep a record of your outreach activity.",
+      icon: History
     },
     {
-      title: "Custom Themes",
-      description: "Personalize your browsing experience with beautiful custom themes and layouts.",
-      icon: Palette
-    },
-    {
-      title: "Seamless Integration",
-      description: "Works perfectly with your existing Chrome setup and favorite extensions.",
+      title: "Easy-to-Use Interface",
+      description: "Modern, simple popup with guided workflow for all outreach actions.",
       icon: CheckCircle
+    },
+    {
+      title: "Zero Setup Required",
+      description: "No coding or onboarding—just install the extension and start connecting.",
+      icon: Zap
     }
   ];
 
@@ -59,13 +59,12 @@ const FeaturesSection = () => {
     <section id="features" className="py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="section-container">
         <div className="text-center mb-16">
-          <p className="subtle-heading mb-4">POWERFUL FEATURES</p>
+          <p className="subtle-heading mb-4">KEY FEATURES</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Everything You Need In One Extension
+            Automate. Personalize. Connect.
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            ChromeGlow combines all the essential tools you need to supercharge your browsing experience, 
-            all wrapped in a beautiful, easy-to-use interface.
+            AlumniConnectAI brings modern automation and personalized outreach together, so you can focus on relationships, not repetitive tasks.
           </p>
         </div>
         
@@ -76,9 +75,9 @@ const FeaturesSection = () => {
         </div>
         
         <div className="mt-16 text-center">
-          <p className="text-gray-500 mb-6">And many more features waiting for you to explore!</p>
+          <p className="text-gray-500 mb-6">Explore even more enhancements inside the extension.</p>
           <button className="glow-btn">
-            Discover All Features
+            View Demo
           </button>
         </div>
       </div>

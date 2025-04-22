@@ -8,31 +8,31 @@ const Navbar = () => {
         <div className="flex items-center space-x-2">
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-2xl font-bold bg-chrome-gradient bg-clip-text text-transparent">
-              ChromeGlow
+            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-blue-400 to-green-400 bg-clip-text text-transparent">
+              AlumniConnectAI
             </span>
           </div>
         </div>
         
         {/* Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#features" className="text-gray-600 hover:text-chrome-blue font-medium">
+          <a href="#features" className="text-gray-600 hover:text-blue-600 font-medium">
             Features
           </a>
-          <a href="#how-it-works" className="text-gray-600 hover:text-chrome-blue font-medium">
+          <a href="#how-it-works" className="text-gray-600 hover:text-blue-600 font-medium">
             How It Works
           </a>
-          <a href="#testimonials" className="text-gray-600 hover:text-chrome-blue font-medium">
+          <a href="#testimonials" className="text-gray-600 hover:text-blue-600 font-medium">
             Testimonials
           </a>
-          <a href="#faq" className="text-gray-600 hover:text-chrome-blue font-medium">
+          <a href="#faq" className="text-gray-600 hover:text-blue-600 font-medium">
             FAQ
           </a>
         </nav>
         
         {/* CTA Button */}
         <Button className="glow-btn">
-          Add to Chrome
+          Install on Chrome
         </Button>
       </div>
     </header>

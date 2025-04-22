@@ -9,28 +9,28 @@ import {
 const FAQSection = () => {
   const faqs = [
     {
-      question: "Is ChromeGlow free to use?",
-      answer: "Yes, ChromeGlow is completely free for personal use. We also offer a premium version with advanced features for power users and businesses."
+      question: "Is AlumniConnectAI free?",
+      answer: "Yes, the core features are free to use. We offer premium plans with advanced analytics and integrations for institutions."
     },
     {
-      question: "Does ChromeGlow collect my browsing data?",
-      answer: "No. We take privacy seriously. ChromeGlow does not collect any personal browsing data or history. All your data stays on your device."
+      question: "Does the extension store or sell my data?",
+      answer: "No. All scraping and email sending are handled locally. We do not store, share, or sell any user or alumni data."
     },
     {
-      question: "Will ChromeGlow slow down my browser?",
-      answer: "ChromeGlow is designed to be lightweight and optimized. In fact, many of our features actually improve your browser's performance."
+      question: "What alumni data can it scrape?",
+      answer: "It extracts publicly available data from alumni directories—such as names, emails, graduation years, and positions."
     },
     {
-      question: "Is ChromeGlow compatible with other extensions?",
-      answer: "Yes, ChromeGlow is built to work alongside your other favorite extensions without conflicts or performance issues."
+      question: "Can I track who opened or replied to my emails?",
+      answer: "Yes! The extension includes basic email tracking and keeps a history of your outreach activity."
     },
     {
-      question: "How do I get support if I have issues?",
-      answer: "We offer support through our help center, community forums, and direct email. Our team typically responds within 24 hours."
+      question: "Is it difficult to set up?",
+      answer: "Not at all. Just install the extension and you’re ready to start—no tech skills required."
     },
     {
-      question: "Can I sync my settings across devices?",
-      answer: "Yes, ChromeGlow settings sync automatically across all your devices using your Chrome account."
+      question: "Who can I contact for support?",
+      answer: "Reach out to the authors directly via the links on the landing page, or check our documentation for more help."
     }
   ];
 
@@ -38,12 +38,12 @@ const FAQSection = () => {
     <section id="faq" className="py-20 bg-white">
       <div className="section-container">
         <div className="text-center mb-16">
-          <p className="subtle-heading mb-4">QUESTIONS & ANSWERS</p>
+          <p className="subtle-heading mb-4">FREQUENTLY ASKED</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Frequently Asked Questions
+            AlumniConnectAI FAQ
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            Find answers to common questions about ChromeGlow. If you don't see your question here, feel free to contact us.
+            Something not covered below? Reach out for more answers.
           </p>
         </div>
         
@@ -64,10 +64,10 @@ const FAQSection = () => {
         
         <div className="mt-12 text-center">
           <p className="text-gray-600 mb-6">
-            Still have questions? We're here to help!
+            Still have questions? Contact the authors below.
           </p>
           <button className="bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium py-3 px-6 rounded-full transition-all">
-            Contact Support
+            Contact Authors
           </button>
         </div>
       </div>

@@ -3,36 +3,36 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    title: "UX Designer",
-    content: "ChromeGlow has completely transformed how I browse the web. The productivity features save me hours every week, and the interface is so intuitive!",
+    name: "Anna Patel",
+    title: "Career Services Director",
+    content: "AlumniConnectAI has turned hours of manual work into minutes. Outreach is faster, more personal, and our response rates have tripled!",
     rating: 5
   },
   {
-    name: "Mark Williams",
-    title: "Software Developer",
-    content: "As a developer, I need tools that help me work efficiently. ChromeGlow's development features are exceptional, and the performance boost is noticeable.",
+    name: "Liam Chen",
+    title: "Alumni Relations Coordinator",
+    content: "The extension's scraping and bulk email features are a game changer. It helps us proactively engage our alumni with less effort.",
     rating: 5
   },
   {
-    name: "Emily Chen",
-    title: "Content Creator",
-    content: "The customization options in ChromeGlow are amazing! I can make my browser look exactly how I want, and the screenshot tools are perfect for my work.",
+    name: "Sofia Leone",
+    title: "University Advancement Officer",
+    content: "Setting up personalized templates and tracking alumni engagement is so smooth. Our programs are more efficient than ever!",
     rating: 4
   }
 ];
 
 const TestimonialsSection = () => {
   return (
-    <section id="testimonials" className="py-20 bg-chrome-gray/30">
+    <section id="testimonials" className="py-20 bg-gray-100/60">
       <div className="section-container">
         <div className="text-center mb-16">
-          <p className="subtle-heading mb-4">TRUSTED BY THOUSANDS</p>
+          <p className="subtle-heading mb-4">RESULTS THAT MATTER</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            What Our Users Say
+            What Alumni Pros Say
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            Don't just take our word for it. Hear from people who use ChromeGlow every day to enhance their browsing experience.
+            See how AlumniConnectAI is making a difference in alumni offices and career centers.
           </p>
         </div>
         
@@ -53,7 +53,7 @@ const TestimonialsSection = () => {
               </blockquote>
               
               <div className="mt-4 flex items-center">
-                <div className="w-10 h-10 bg-chrome-gradient rounded-full flex items-center justify-center text-white font-bold">
+                <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-green-400 rounded-full flex items-center justify-center text-white font-bold">
                   {testimonial.name.charAt(0)}
                 </div>
                 <div className="ml-3">
