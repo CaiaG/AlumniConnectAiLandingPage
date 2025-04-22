@@ -35,19 +35,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -95,7 +88,73 @@
     @apply border-border;
   }
 
-  body {
-    @apply bg-background text-foreground;
+  html {
+    @apply scroll-smooth;
   }
+
+  body {
+    @apply bg-background text-foreground font-['Inter',sans-serif];
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-lg rounded-xl overflow-hidden;
+  }
+  
+  .chrome-card {
+    @apply bg-white shadow-chrome-card rounded-xl overflow-hidden transition-all hover:shadow-lg;
+  }
+  
+  .glow-btn {
+    @apply bg-chrome-gradient text-white py-3 px-6 rounded-full font-medium transition-all hover:shadow-glow;
+  }
+  
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-24;
+  }
+  
+  .feature-icon {
+    @apply w-12 h-12 flex items-center justify-center rounded-full bg-chrome-blue/10 text-chrome-blue mb-4;
+  }
+  
+  .subtle-heading {
+    @apply text-sm uppercase tracking-wider text-chrome-blue/80 font-semibold;
+  }
+  
+  .chrome-tab {
+    @apply rounded-t-lg px-4 py-3 font-medium;
+  }
+}
+
+/* Custom animation for staggered features */
+.feature-item {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.feature-item:nth-child(1) { animation: slide-up 0.5s 0.1s ease-out forwards; }
+.feature-item:nth-child(2) { animation: slide-up 0.5s 0.2s ease-out forwards; }
+.feature-item:nth-child(3) { animation: slide-up 0.5s 0.3s ease-out forwards; }
+.feature-item:nth-child(4) { animation: slide-up 0.5s 0.4s ease-out forwards; }
+
+.chrome-shadow {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.glow-effect {
+  position: relative;
+}
+
+.glow-effect::after {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  right: -50px;
+  bottom: -50px;
+  background: radial-gradient(circle, rgba(66, 133, 244, 0.3) 0%, rgba(66, 133, 244, 0) 70%);
+  z-index: -1;
+  border-radius: 50%;
+  opacity: 0.6;
 }
