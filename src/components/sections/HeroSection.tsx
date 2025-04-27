@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
@@ -11,12 +10,12 @@ const HeroSection = () => {
       <div className="section-container relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="subtle-heading mb-4">ALUMNI OUTREACH AUTOMATION</p>
+            <p className="subtle-heading mb-4">PENN ALUMNI NETWORKING ASSISTANT</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Meet <span className="bg-gradient-to-r from-blue-600 via-blue-400 to-green-400 bg-clip-text text-transparent">AlumniConnectAI</span>
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-lg">
-              A Chrome extension that streamlines alumni networking by <b>automatically scraping alumni data</b> and sending <b>personalized emails</b>—all with one click. Boost your outreach, save hours, and track your results, effortlessly.
+              A Chrome extension that helps UPenn students network with alumni by <b>automatically scraping alumni data</b> from the Penn Directory and <b>generating personalized AI prompts</b> for outreach messages.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="glow-btn animate-pulse-glow">

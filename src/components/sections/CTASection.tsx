@@ -13,18 +13,18 @@ const CTASection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Ready to Automate Your Alumni Outreach?
+              Ready to Enhance Your Penn Alumni Networking?
             </h2>
             <p className="text-white/80 text-lg mb-8">
-              Install AlumniConnectAI and move from spreadsheets to seamless, personalized connections—right in your browser.
+              Install AlumniConnectAI and transform how you connect with Penn alumni—from manual searching to AI-powered networking.
             </p>
             
             <ul className="space-y-3 mb-8">
               {[
-                "Automated scraping & sending",
-                "Free for individuals",
-                "No registration required",
-                "Built by alumni professionals"
+                "Penn Directory data scraping",
+                "AI prompt generation",
+                "Made for Penn students",
+                "Built by Penn students"
               ].map((item, index) => (
                 <li key={index} className="flex items-center text-white">
                   <Check className="w-5 h-5 mr-2 text-white" />

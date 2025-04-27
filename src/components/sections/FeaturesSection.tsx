@@ -1,5 +1,5 @@
 
-import { CheckCircle, Zap, Mail, Users, History, FileText } from "lucide-react";
+import { Users, FileText, Sparkles, Brain, CheckCircle, Zap } from "lucide-react";
 
 const FeatureCard = ({ 
   title, 
@@ -24,33 +24,33 @@ const FeatureCard = ({
 const FeaturesSection = () => {
   const features = [
     {
-      title: "Automated Alumni Data Scraping",
-      description: "Collect comprehensive alumni information from directories without manual copy-pasting.",
+      title: "Penn Directory Integration",
+      description: "Seamlessly collect alumni information from the Penn Directory without manual copy-pasting.",
       icon: Users
     },
     {
-      title: "Personalized Email Templates",
-      description: "Generate and edit dynamic email templates for each outreach campaign.",
+      title: "AI Prompt Generation",
+      description: "Generate customized prompts for ChatGPT and other AI tools to craft personalized outreach messages.",
+      icon: Brain
+    },
+    {
+      title: "Smart Data Organization",
+      description: "Keep track of alumni information and outreach history in one place.",
       icon: FileText
     },
     {
-      title: "Bulk Email Sending",
-      description: "Easily send custom emails to multiple alumni in one go.",
-      icon: Mail
-    },
-    {
-      title: "Email Tracking & History",
-      description: "Monitor email opens, replies, and keep a record of your outreach activity.",
-      icon: History
+      title: "Personalization Suggestions",
+      description: "Get smart suggestions for personalizing your outreach based on alumni profiles.",
+      icon: Sparkles
     },
     {
       title: "Easy-to-Use Interface",
-      description: "Modern, simple popup with guided workflow for all outreach actions.",
+      description: "Modern, simple popup interface designed specifically for Penn students.",
       icon: CheckCircle
     },
     {
       title: "Zero Setup Required",
-      description: "No coding or onboarding—just install the extension and start connecting.",
+      description: "No coding or complex setup—just install and start connecting with Penn alumni.",
       icon: Zap
     }
   ];

@@ -10,14 +10,14 @@ const steps = [
   },
   {
     number: "02",
-    title: "Navigate & Scrape",
-    description: "Head to the alumni directory and click 'Start Scraping'—let the tool gather all alumni info for you.",
+    title: "Browse Penn Directory",
+    description: "Navigate to the Penn Alumni Directory and let the tool collect relevant alumni information for you.",
     image: "scrape"
   },
   {
     number: "03",
-    title: "Personalize & Send",
-    description: "Customize email templates and send bulk, trackable emails directly from your browser.",
+    title: "Generate & Customize",
+    description: "Generate AI prompts based on alumni profiles and customize your outreach message using your preferred AI tool.",
     image: "send"
   }
 ];
