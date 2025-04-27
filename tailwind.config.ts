@@ -69,6 +69,14 @@ export default {
 					green: '#34A853',
 					gray: '#F1F3F4',
 					dark: '#202124'
+				},
+				custom: {
+					mint: '#98D9C2',
+					sage: '#ABEDC6',
+					pink: '#DC7F9B',
+					purple: '#8C75BB',
+					deepPurple: '#190933',
+					white: '#fff'
 				}
 			},
 			borderRadius: {
@@ -107,7 +115,7 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-				'chrome-gradient': 'linear-gradient(135deg, #4285F4, #8F6BF2)',
+				'chrome-gradient': 'linear-gradient(135deg, #98D9C2, #8C75BB)',
 				'glass-gradient': 'linear-gradient(135deg, rgba(255,255,255,0.2), rgba(255,255,255,0.05))'
 			},
 			boxShadow: {

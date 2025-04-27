@@ -1,4 +1,3 @@
-
 import { ArrowRight } from "lucide-react";
 
 const steps = [
@@ -27,38 +26,37 @@ const HowItWorksSection = () => {
     <section id="how-it-works" className="py-20 bg-white">
       <div className="section-container">
         <div className="text-center mb-16">
-          <p className="subtle-heading mb-4">HOW IT WORKS</p>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <p className="text-sm uppercase tracking-wider text-custom-mint font-semibold mb-4">HOW IT WORKS</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-custom-deepPurple">
             Connect With Alumni in 3 Steps
           </h2>
-          <p className="text-gray-600 max-w-3xl mx-auto">
+          <p className="text-custom-deepPurple/70 max-w-3xl mx-auto">
             AlumniConnectAI simplifies outreach: install, scrape, and connect with just a few clicks.
           </p>
         </div>
         
         <div className="relative mt-20">
-          {/* Connection line */}
-          <div className="absolute top-24 left-0 right-0 h-0.5 bg-gray-200 hidden md:block"></div>
+          <div className="absolute top-24 left-0 right-0 h-0.5 bg-custom-sage hidden md:block"></div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {steps.map((step, index) => (
               <div key={index} className="relative">
                 <div className="chrome-card p-6 h-full">
-                  <div className="inline-block rounded-full bg-blue-500/10 text-blue-500 font-bold px-3 py-1 mb-4">
+                  <div className="inline-block rounded-full bg-custom-mint/10 text-custom-mint font-bold px-3 py-1 mb-4">
                     {step.number}
                   </div>
-                  <h3 className="text-xl font-semibold mb-3">{step.title}</h3>
-                  <p className="text-gray-600">{step.description}</p>
+                  <h3 className="text-xl font-semibold mb-3 text-custom-deepPurple">{step.title}</h3>
+                  <p className="text-custom-deepPurple/70">{step.description}</p>
                   
                   {index < steps.length - 1 && (
                     <div className="hidden md:block absolute top-24 right-0 transform translate-x-1/2 bg-white rounded-full p-2 z-10">
-                      <ArrowRight className="w-5 h-5 text-blue-500" />
+                      <ArrowRight className="w-5 h-5 text-custom-mint" />
                     </div>
                   )}
                 </div>
                 
-                <div className="mt-6 bg-gray-100 rounded-lg p-4 h-40 flex items-center justify-center shadow-sm">
-                  <div className="bg-gradient-to-br from-blue-500 to-green-400 w-16 h-16 rounded-full flex items-center justify-center opacity-80">
+                <div className="mt-6 bg-custom-sage/10 rounded-lg p-4 h-40 flex items-center justify-center">
+                  <div className="bg-gradient-to-br from-custom-mint to-custom-purple w-16 h-16 rounded-full flex items-center justify-center opacity-90">
                     <span className="text-white font-bold">{step.image}</span>
                   </div>
                 </div>

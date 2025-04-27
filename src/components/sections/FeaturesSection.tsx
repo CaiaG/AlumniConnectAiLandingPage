@@ -12,11 +12,11 @@ const FeatureCard = ({
 }) => {
   return (
     <div className="feature-item chrome-card p-6">
-      <div className="feature-icon">
+      <div className="w-12 h-12 flex items-center justify-center rounded-full bg-custom-mint/10 text-custom-mint mb-4">
         <Icon className="w-5 h-5" />
       </div>
-      <h3 className="text-xl font-semibold mb-3">{title}</h3>
-      <p className="text-gray-600">{description}</p>
+      <h3 className="text-xl font-semibold mb-3 text-custom-deepPurple">{title}</h3>
+      <p className="text-custom-deepPurple/70">{description}</p>
     </div>
   );
 };
@@ -41,9 +41,9 @@ const FeaturesSection = () => {
   ];
 
   return (
-    <section id="features" className="py-16 bg-gradient-to-b from-white to-gray-50">
+    <section id="features" className="py-16 bg-gradient-to-b from-white to-custom-sage/10">
       <div className="section-container">
-        <h2 className="text-3xl font-bold mb-12 text-center">
+        <h2 className="text-3xl font-bold mb-12 text-center text-custom-deepPurple">
           Key Features
         </h2>
         
