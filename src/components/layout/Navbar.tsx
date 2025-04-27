@@ -22,12 +22,6 @@ const Navbar = () => {
           <a href="#how-it-works" className="text-gray-600 hover:text-blue-600 font-medium">
             How It Works
           </a>
-          <a href="#testimonials" className="text-gray-600 hover:text-blue-600 font-medium">
-            Testimonials
-          </a>
-          <a href="#faq" className="text-gray-600 hover:text-blue-600 font-medium">
-            FAQ
-          </a>
         </nav>
         
         {/* CTA Button */}
