@@ -1,9 +1,11 @@
+
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <section className="pt-16 pb-12 overflow-hidden relative bg-custom-sage/20">
-      <div className="absolute top-40 right-20 w-96 h-96 bg-custom-mint/20 rounded-full filter blur-3xl"></div>
+    <section className="pt-20 pb-16 overflow-hidden relative bg-gradient-to-br from-custom-mint/30 via-custom-sage/20 to-custom-purple/10">
+      <div className="absolute top-40 right-20 w-96 h-96 bg-custom-mint/30 rounded-full filter blur-3xl animate-pulse"></div>
+      <div className="absolute bottom-20 left-20 w-72 h-72 bg-custom-purple/20 rounded-full filter blur-3xl animate-pulse"></div>
       
       <div className="section-container relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
