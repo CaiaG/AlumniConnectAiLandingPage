@@ -1,5 +1,5 @@
 
-import { Users, Brain, FileText } from "lucide-react";
+import { Users, Brain, FileText, Search, MessageSquare, Database } from "lucide-react";
 
 const FeatureCard = ({ 
   title, 
@@ -24,30 +24,30 @@ const FeatureCard = ({
 const FeaturesSection = () => {
   const features = [
     {
-      title: "Penn Directory Integration",
-      description: "Automatically collect alumni information from the Penn Directory.",
-      icon: Users
+      title: "Smart Directory Scraping",
+      description: "Automatically extract alumni information including name, graduation year, current role, and company from Penn Directory profiles.",
+      icon: Search
     },
     {
-      title: "AI Prompt Generation",
-      description: "Generate customized prompts for ChatGPT to craft outreach messages.",
-      icon: Brain
+      title: "AI Message Generation",
+      description: "Get intelligent prompt suggestions for crafting personalized outreach messages based on alumni background and shared interests.",
+      icon: MessageSquare
     },
     {
-      title: "Data Organization",
-      description: "Keep track of alumni information in one place.",
-      icon: FileText
+      title: "Profile Organization",
+      description: "Save and organize alumni profiles with notes and tags for effective networking management.",
+      icon: Database
     }
   ];
 
   return (
-    <section id="features" className="py-16 bg-gradient-to-b from-white to-custom-sage/10">
+    <section id="features" className="py-12 bg-custom-sage/20">
       <div className="section-container">
-        <h2 className="text-3xl font-bold mb-12 text-center text-custom-deepPurple">
+        <h2 className="text-3xl font-bold mb-8 text-center text-custom-deepPurple">
           Key Features
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {features.map((feature, index) => (
             <FeatureCard key={index} {...feature} />
           ))}

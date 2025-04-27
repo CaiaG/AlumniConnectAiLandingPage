@@ -1,13 +1,12 @@
-
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <section className="pt-20 pb-16 overflow-hidden relative">
+    <section className="pt-16 pb-12 overflow-hidden relative bg-custom-sage/20">
       <div className="absolute top-40 right-20 w-96 h-96 bg-custom-mint/20 rounded-full filter blur-3xl"></div>
       
       <div className="section-container relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
               Smarter Alumni Outreach with <span className="bg-gradient-to-r from-custom-mint via-custom-purple to-custom-pink bg-clip-text text-transparent">AlumniConnectAI</span>

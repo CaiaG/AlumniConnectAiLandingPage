@@ -23,7 +23,7 @@ const steps = [
 
 const HowItWorksSection = () => {
   return (
-    <section id="how-it-works" className="py-20 bg-white">
+    <section id="how-it-works" className="py-16 bg-custom-sage/20">
       <div className="section-container">
         <div className="text-center mb-16">
           <p className="text-sm uppercase tracking-wider text-custom-mint font-semibold mb-4">HOW IT WORKS</p>
