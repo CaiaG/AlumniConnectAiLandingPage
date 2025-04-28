@@ -1,3 +1,4 @@
+
 import { ArrowRight } from "lucide-react";
 
 const steps = [
@@ -23,10 +24,10 @@ const steps = [
 
 const HowItWorksSection = () => {
   return (
-    <section id="how-it-works" className="py-20 relative overflow-hidden">
+    <section id="how-it-works" className="py-24 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-custom-mint/50 via-custom-sage/40 to-custom-purple/30"></div>
       
-      <div className="section-container relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 relative z-10">
         <div className="text-center mb-16">
           <p className="text-sm uppercase tracking-wider text-custom-purple font-semibold mb-4 bg-white/50 inline-block px-4 py-1 rounded-full">HOW IT WORKS</p>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-custom-deepPurple">
