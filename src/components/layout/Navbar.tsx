@@ -11,7 +11,7 @@ const Navbar = () => {
             alt="AlumniConnectAI Logo" 
             className="w-10 h-10"
           />
-          <span className="text-2xl font-bold bg-gradient-to-r from-[#7DE2D1] via-[#8B5CF6] to-[#FF9F9F] bg-clip-text text-transparent">
+          <span className="text-2xl font-bold bg-gradient-to-r from-[#7DE2D1] via-[#8B5CF6] to-[#FF9F9F] bg-clip-text text-transparent drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.3)]">
             AlumniConnectAI
           </span>
         </div>

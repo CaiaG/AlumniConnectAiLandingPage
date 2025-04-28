@@ -13,9 +13,9 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-              Smarter Alumni Outreach with <span className="bg-gradient-to-r from-custom-mint via-custom-purple to-custom-pink bg-clip-text text-transparent animate-pulse">AlumniConnectAI</span>
+              Smarter Alumni Outreach with <span className="bg-white text-[#8B5CF6] px-2 py-1 rounded-lg shadow-lg animate-pulse">AlumniConnectAI</span>
             </h1>
-            <p className="text-xl text-custom-deepPurple/90 mb-8 bg-white/30 p-4 rounded-lg backdrop-blur-sm">
+            <p className="text-xl text-white mb-8 bg-black/30 p-4 rounded-lg backdrop-blur-sm font-medium">
               A Chrome extension that helps Penn students collect alumni data and generate personalized AI prompts for outreach messages.
             </p>
             <Button size="lg" className="bg-custom-mint hover:bg-custom-sage text-custom-deepPurple transition-all group relative overflow-hidden px-8 py-6">
