@@ -19,13 +19,16 @@ const HeroSection = () => {
             <p className="text-xl text-white mb-8 bg-black/30 p-4 rounded-lg backdrop-blur-sm font-medium">
               A Chrome extension that helps Penn students collect alumni data and generate personalized AI prompts for outreach messages.
             </p>
-            <Button size="lg" className="bg-custom-mint hover:bg-custom-sage text-custom-deepPurple transition-all group relative overflow-hidden px-8 py-6">
-              <span className="relative z-10 flex items-center gap-2 text-lg">
-                Install Extension
-                <Sparkles className="w-5 h-5 animate-pulse" />
-              </span>
-              <div className="absolute inset-0 bg-gradient-to-r from-custom-mint via-custom-purple to-custom-pink opacity-0 group-hover:opacity-20 transition-opacity"></div>
-            </Button>
+
+            <a href="https://github.com/Abdullah3245/AlumniConnectAI/tree/main" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="bg-custom-mint hover:bg-custom-sage text-custom-deepPurple transition-all group relative overflow-hidden px-8 py-6">
+                <span className="relative z-10 flex items-center gap-2 text-lg">
+                  Install Extension
+                  <Sparkles className="w-5 h-5 animate-pulse" />
+                </span>
+                <div className="absolute inset-0 bg-gradient-to-r from-custom-mint via-custom-purple to-custom-pink opacity-0 group-hover:opacity-20 transition-opacity"></div>
+              </Button>
+            </a>         
           </div>
           
           <div className="relative mt-8 lg:mt-0">
