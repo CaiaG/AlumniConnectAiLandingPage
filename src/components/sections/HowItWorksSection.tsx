@@ -56,11 +56,7 @@ const HowItWorksSection = () => {
                   <p className="text-custom-deepPurple/70">{step.description}</p>
                 </div>
                 
-                <div className="mt-6 bg-gradient-to-br from-custom-mint/10 to-custom-purple/10 rounded-lg p-4 h-40 flex items-center justify-center group-hover:scale-105 transition-transform">
-                  <div className="bg-gradient-to-br from-custom-mint to-custom-purple w-16 h-16 rounded-full flex items-center justify-center opacity-90 group-hover:opacity-100">
-                    <span className="text-white font-bold">{step.image}</span>
-                  </div>
-                </div>
+            
               </div>
             ))}
           </div>
