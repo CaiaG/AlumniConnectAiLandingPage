@@ -22,9 +22,11 @@ const Navbar = () => {
           </a>
         </nav>
         
-        <Button className="bg-[#7DE2D1] hover:bg-[#8B5CF6] text-white transition-all duration-300">
-          Install on Chrome
-        </Button>
+        <a href="https://github.com/Abdullah3245/AlumniConnectAI/tree/main" target="_blank" rel="noopener noreferrer">
+          <Button className="bg-[#7DE2D1] hover:bg-[#8B5CF6] text-white transition-all duration-300">
+            Install on Chrome
+          </Button>
+      </a>
       </div>
     </header>
   );
