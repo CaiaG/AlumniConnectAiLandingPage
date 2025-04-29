@@ -5,13 +5,13 @@ const steps = [
   {
     number: "01",
     title: "Install AlumniConnectAI",
-    description: "Add the extension to Chrome in seconds. No sign-up or complex setup needed.",
+    description: "Add the extension to Chrome.",
     image: "extension"
   },
   {
     number: "02",
     title: "Browse Penn Directory",
-    description: "Navigate to the Penn Alumni Directory and let the tool collect relevant alumni information for you.",
+    description: "Navigate to the Penn Alumni Directory.",
     image: "scrape"
   },
   {
