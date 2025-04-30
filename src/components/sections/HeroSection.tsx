@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Sparkles, Extension } from "lucide-react";
+import { Sparkles, Chrome } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -37,7 +37,7 @@ const HeroSection = () => {
               {/* Chrome Extension Header */}
               <div className="bg-[#F1F3F4] rounded-t-lg p-2 flex items-center justify-between border-b border-gray-300">
                 <div className="flex items-center gap-2">
-                  <Extension className="w-5 h-5 text-chrome-blue" />
+                  <Chrome className="w-5 h-5 text-chrome-blue" />
                   <span className="font-medium text-sm text-gray-700">AlumniConnectAI</span>
                 </div>
                 <div className="flex items-center gap-1">
