@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Sparkles } from "lucide-react";
+import { Sparkles, Extension } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -32,16 +32,43 @@ const HeroSection = () => {
           </div>
           
           <div className="relative mt-8 lg:mt-0">
-            <div className="chrome-card p-4 shadow-lg rounded-lg overflow-hidden bg-gradient-to-br from-white/80 to-white/40 backdrop-blur-sm border border-white/40 max-w-md mx-auto">
-              <div className="bg-gradient-to-r from-custom-mint/20 to-custom-purple/20 rounded-md">
-                <div className="flex items-center gap-2 p-2">
-                  <div className="w-3 h-3 bg-custom-pink rounded-full animate-pulse"></div>
-                  <div className="w-3 h-3 bg-custom-purple rounded-full animate-pulse delay-75"></div>
-                  <div className="w-3 h-3 bg-custom-mint rounded-full animate-pulse delay-150"></div>
+            {/* Chrome Extension UI */}
+            <div className="chrome-extension-card max-w-md mx-auto">
+              {/* Chrome Extension Header */}
+              <div className="bg-[#F1F3F4] rounded-t-lg p-2 flex items-center justify-between border-b border-gray-300">
+                <div className="flex items-center gap-2">
+                  <Extension className="w-5 h-5 text-chrome-blue" />
+                  <span className="font-medium text-sm text-gray-700">AlumniConnectAI</span>
                 </div>
-                <div className="h-48 bg-white/80 p-3 rounded-b-md">
-                  <div className="h-full w-full bg-gradient-to-br from-custom-mint to-custom-purple rounded opacity-90 flex items-center justify-center shadow-lg">
-                    <div className="text-white font-bold text-2xl text-center px-4">Penn Alumni Directory Integration</div>
+                <div className="flex items-center gap-1">
+                  <div className="w-3 h-3 bg-gray-300 rounded-full"></div>
+                  <div className="w-3 h-3 bg-gray-300 rounded-full"></div>
+                </div>
+              </div>
+              
+              {/* Chrome Extension Body */}
+              <div className="bg-white p-4 rounded-b-lg shadow-sm">
+                {/* Extension Logo Section */}
+                <div className="flex justify-center mb-4">
+                  <div className="w-16 h-16 bg-chrome-blue rounded-full flex items-center justify-center">
+                    <div className="text-white text-2xl font-bold">AC</div>
+                  </div>
+                </div>
+                
+                {/* Extension Content */}
+                <div className="space-y-3">
+                  <div className="h-8 bg-[#F1F3F4] rounded-md w-full"></div>
+                  <div className="h-24 bg-gradient-to-r from-custom-mint to-custom-purple rounded-md flex items-center justify-center p-2">
+                    <div className="text-white font-bold text-center">Penn Alumni Directory Integration</div>
+                  </div>
+                  <div className="grid grid-cols-2 gap-2 mt-2">
+                    <div className="h-10 bg-[#F1F3F4] rounded-md"></div>
+                    <div className="h-10 bg-[#F1F3F4] rounded-md"></div>
+                  </div>
+                  <div className="flex justify-end mt-2">
+                    <div className="h-8 w-24 bg-custom-mint rounded-md flex items-center justify-center">
+                      <span className="text-xs font-medium text-custom-deepPurple">Connect</span>
+                    </div>
                   </div>
                 </div>
               </div>
