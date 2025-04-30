@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -124,6 +125,11 @@
   
   .chrome-tab {
     @apply rounded-t-lg px-4 py-3 font-medium;
+  }
+  
+  .chrome-extension-card {
+    @apply bg-white rounded-lg overflow-hidden shadow-xl border border-gray-200 transition-all hover:border-custom-purple/30;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
 }
 

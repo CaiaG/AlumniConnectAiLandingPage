@@ -32,8 +32,8 @@ const HeroSection = () => {
           </div>
           
           <div className="relative mt-8 lg:mt-0">
-            {/* Chrome Extension UI */}
-            <div className="chrome-extension-card max-w-md mx-auto">
+            {/* Chrome Extension UI - Enhanced Version */}
+            <div className="chrome-extension-card max-w-md mx-auto shadow-xl transform hover:scale-[1.02] transition-all duration-300">
               {/* Chrome Extension Header */}
               <div className="bg-[#F1F3F4] rounded-t-lg p-2 flex items-center justify-between border-b border-gray-300">
                 <div className="flex items-center gap-2">
@@ -47,34 +47,48 @@ const HeroSection = () => {
               </div>
               
               {/* Chrome Extension Body */}
-              <div className="bg-white p-4 rounded-b-lg shadow-sm">
+              <div className="bg-white p-6 rounded-b-lg shadow-inner">
                 {/* Extension Logo Section */}
-                <div className="flex justify-center mb-4">
-                  <div className="w-16 h-16 bg-chrome-blue rounded-full flex items-center justify-center">
+                <div className="flex justify-center mb-6">
+                  <div className="w-16 h-16 bg-gradient-to-br from-custom-purple to-custom-pink rounded-full flex items-center justify-center shadow-lg">
                     <div className="text-white text-2xl font-bold">AC</div>
                   </div>
                 </div>
                 
                 {/* Extension Content */}
-                <div className="space-y-3">
-                  <div className="h-8 bg-[#F1F3F4] rounded-md w-full"></div>
-                  <div className="h-24 bg-gradient-to-r from-custom-mint to-custom-purple rounded-md flex items-center justify-center p-2">
-                    <div className="text-white font-bold text-center">Penn Alumni Directory Integration</div>
+                <div className="space-y-4">
+                  <div className="flex items-center gap-2 bg-[#F5F7F9] rounded-md p-3 border border-gray-100">
+                    <div className="w-4 h-4 bg-custom-purple rounded-full"></div>
+                    <span className="text-sm text-gray-700 font-medium">Penn Alumni Directory</span>
                   </div>
-                  <div className="grid grid-cols-2 gap-2 mt-2">
-                    <div className="h-10 bg-[#F1F3F4] rounded-md"></div>
-                    <div className="h-10 bg-[#F1F3F4] rounded-md"></div>
+                  
+                  <div className="h-28 bg-gradient-to-br from-custom-mint/90 to-custom-purple/90 rounded-md flex items-center justify-center p-3 shadow-md">
+                    <div className="text-white font-bold text-center leading-tight">
+                      <div className="mb-1">Profile Analysis</div>
+                      <div className="text-xs opacity-90">John Smith - Software Engineer at Google</div>
+                      <div className="mt-2 text-xs bg-white/20 py-1 px-2 rounded-full inline-block">87% Match</div>
+                    </div>
                   </div>
-                  <div className="flex justify-end mt-2">
-                    <div className="h-8 w-24 bg-custom-mint rounded-md flex items-center justify-center">
-                      <span className="text-xs font-medium text-custom-deepPurple">Connect</span>
+                  
+                  <div className="grid grid-cols-2 gap-2">
+                    <div className="h-10 bg-[#F5F7F9] rounded-md flex items-center justify-center">
+                      <span className="text-xs font-medium text-gray-700">Career Path</span>
+                    </div>
+                    <div className="h-10 bg-[#F5F7F9] rounded-md flex items-center justify-center">
+                      <span className="text-xs font-medium text-gray-700">Network Stats</span>
+                    </div>
+                  </div>
+                  
+                  <div className="flex justify-end mt-3">
+                    <div className="h-9 px-4 bg-custom-mint rounded-md flex items-center justify-center shadow-sm hover:shadow-md transition-all">
+                      <span className="text-xs font-medium text-custom-deepPurple">Generate Message</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             
-            {/* Adjusted positioning for decorative elements */}
+            {/* Decorative elements */}
             <div className="absolute -top-8 -right-8 w-20 h-20 bg-custom-pink/30 rounded-full animate-pulse hidden lg:block"></div>
             <div className="absolute -bottom-8 -left-8 w-24 h-24 bg-custom-mint/30 rounded-full animate-pulse delay-150 hidden lg:block"></div>
           </div>
