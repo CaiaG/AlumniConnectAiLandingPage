@@ -70,14 +70,7 @@ const HeroSection = () => {
                     </div>
                   </div>
                   
-                  <div className="grid grid-cols-2 gap-2">
-                    <div className="h-10 bg-[#F5F7F9] rounded-md flex items-center justify-center">
-                      <span className="text-xs font-medium text-gray-700">Career Path</span>
-                    </div>
-                    <div className="h-10 bg-[#F5F7F9] rounded-md flex items-center justify-center">
-                      <span className="text-xs font-medium text-gray-700">Network Stats</span>
-                    </div>
-                  </div>
+                  {/* Removed the Career Path and Network Stats buttons grid */}
                   
                   <div className="flex justify-end mt-3">
                     <div className="h-9 px-4 bg-custom-mint rounded-md flex items-center justify-center shadow-sm hover:shadow-md transition-all">
